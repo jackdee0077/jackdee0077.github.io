@@ -126,7 +126,11 @@ h5, h6          { font-weight: bolder }
     }
 
     header .logo{
-        margin-top: 100px;
+        margin-top: 20px;
+    }
+
+    header .logo2{
+        margin-top: 80px;
     }
 
     header .logo a, header .logo a:active, header .logo a:visited {
@@ -294,6 +298,9 @@ h5, h6          { font-weight: bolder }
     min-height: 100vh;
 }
 
+.profile_photo {
+width:70%;
+}
 
 
 /*  Home/portfolio  */
