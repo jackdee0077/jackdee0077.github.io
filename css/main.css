@@ -121,7 +121,7 @@ h5, h6          { font-weight: bolder }
         padding: 0 0 0 50px;
         background: #ffffff;
         float: left;
-        overflow: hidden;
+        overflow: scroll;
         z-index: 9999;
     }
 
@@ -130,8 +130,13 @@ h5, h6          { font-weight: bolder }
     }
 
     header .logo2{
-        margin-top: 80px;
+        margin-top: 70px;
     }
+    
+    header .logo2 img {
+        border-radius: 50%;
+    }
+
 
     header .logo a, header .logo a:active, header .logo a:visited {
         text-decoration: none;
@@ -173,7 +178,6 @@ h5, h6          { font-weight: bolder }
     }
 
     header .footer{
-        position: absolute;
         bottom: 50px;
     }
 
